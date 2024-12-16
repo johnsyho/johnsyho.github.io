@@ -1,20 +1,15 @@
-# Industry Research Interns
+### Industry Interns
+Current and former research interns at Meta
 
-Current and former research interns at Meta.
-
-|                  |             |                             | 
 | ---------------- | ----------- | --------------------------- |
 | Yin Li           | 2024        | [PhD student, Cornell University](https://www.lynneli.xyz/) |
 | Ruichun Ma       | 2024        | [Senior Researcher, Microsoft](https://rui-chun.github.io/) |
 | Dat Nguyen       | 2023        | [Research Scientist, Meta](https://dattnguyen.com/) |
 |                  |             |                             |
 
+### Researchers
+Former staff from my research group at NUS
 
-# Researchers
-
-Former staff from my research group at NUS.
-
-|                  |                            |                             | 
 | ---------------- | -------------------------- | --------------------------- |
 | Xiao Xiao        | PhD student, 2022          | PhD student, NUS |
 | Weifeng Yang     | Visiting PhD, 2022         | PhD student, Donghua University |
@@ -45,11 +40,9 @@ Former staff from my research group at NUS.
 | Fang Yue         | Lab manager, 2019          | PhD student, Nanyang Technological University |
 |                  |                            |                             | 
 
-# Undergraduate Interns
+### Undergraduate Interns
+Former visiting undergraduate researchers
 
-Former visiting undergraduate researchers.
-
-|                        |      |                   |
 | ---------------------- | ---- | ----------------- |
 | Graydon Olson          | 2019 | Kansas University |
 | Tina Wu                | 2018 | University of Waterloo &#8594; [PhD student, Monash University](https://www.linkedin.com/in/tina-wu/?originalSubdomain=ca) |
@@ -64,5 +57,4 @@ Former visiting undergraduate researchers.
 | Anthony Romano         | 2015 | Drexel Universityp &#8594; [RF Engineer, BAE Systems](https://www.linkedin.com/in/anthony-m-romano/) |
 |                        |      |                   |
 
-
-Former supervisees: please contact me to update your information!
+Contact me to update your information!
