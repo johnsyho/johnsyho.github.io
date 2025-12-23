@@ -14,6 +14,7 @@ Former staff from my research group at NUS
 | Xiao Xiao        | PhD student, 2022          | PhD student, NUS |
 | Weifeng Yang     | Visiting PhD, 2022         | PhD student, Donghua University |
 | Wei Heng         | PhD student, 2022          | PhD student, NUS |
+| Maisie Mengxia Yu| PhD, 2024                  | [Postdoc, UT Austin](https://www.linkedin.com/in/maisie-yu-935704399/)| 
 | Dat Nguyen       | PhD, 2023                  | [Research Scientist, Meta](https://dattnguyen.com/) |
 | Qihang Zeng      | PhD, 2023                  | [Postdoc, NUS](https://www.linkedin.com/in/qihang-zeng-68289117b/) |
 | Selman Kurt      | PhD, 2023                  | [Engineer, Dyson](https://www.linkedin.com/in/selmankurt/) |
