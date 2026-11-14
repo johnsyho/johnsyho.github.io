@@ -1,7 +1,7 @@
 # CLAUDE.md
 
 Personal academic site built on [al-folio](https://github.com/alshedivat/al-folio) (Jekyll).
-Deployed by `.github/workflows/deploy.yml` on push, which builds with **Ruby 3.3.5**.
+Deployed by `.github/workflows/deploy.yml` on push, which builds with **Ruby 3.3** (`ruby-version: "3.3"`, the latest 3.3.x patch — newer runner images only ship the latest patch of each series, so an exact pin like 3.3.5 breaks the deploy).
 
 ## Local preview
 
