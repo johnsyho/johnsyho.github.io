@@ -1,0 +1,126 @@
+// Homepage visual summary (_includes/showcase.liquid)
+
+.showcase {
+  --showcase-gap: 0.6rem;
+  --showcase-sep-space: 1.25rem; // whitespace either side of the separator line
+
+  display: flex;
+  margin: 5rem 0 1.5rem; // generous gap: the strip reads as its own section after the bio
+
+  .showcase-group {
+    min-width: 0;
+  }
+
+  .showcase-sep {
+    flex: none;
+    width: 1px;
+    margin: 0 var(--showcase-sep-space);
+    background: var(--global-divider-color);
+  }
+
+  .showcase-label {
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+
+  .showcase-row {
+    display: flex;
+    gap: var(--showcase-gap);
+  }
+
+  .showcase-cell {
+    min-width: 0;
+    margin: 0; // reset <figure> default margin
+  }
+
+  .showcase-caption {
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--global-text-color-light);
+  }
+
+  .showcase-item {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.25rem;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+
+  .showcase-framed .showcase-item {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+  }
+
+  a.showcase-item:hover {
+    transform: translateY(-3px);
+  }
+
+  // Only framed images get a hover shadow; on the white-background product shots it
+  // would outline the image box.
+  .showcase-framed a.showcase-item:hover {
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  }
+
+  // Phones: a single row would be too short, so each group gets its own full-width row.
+  @media (max-width: 576px) {
+    flex-wrap: wrap;
+    row-gap: 1.25rem;
+
+    .showcase-group {
+      flex-basis: 100% !important;
+    }
+
+    .showcase-sep {
+      display: none;
+    }
+  }
+}
+
+// Homepage: profile photo (al-folio's default 30% width) with muted social icons centered
+// tight beneath it (_layouts/about.liquid).
+.profile.about-profile {
+  figure {
+    margin-bottom: 0;
+  }
+
+  img {
+    display: block; // no inline-image gap below the photo
+  }
+}
+
+.profile .about-social {
+  margin-top: 0.4rem;
+
+  .contact-icons {
+    font-size: 1.3rem;
+    line-height: 1;
+    white-space: nowrap;
+
+    a {
+      margin: 0 0.25rem;
+
+      i::before {
+        color: var(--global-text-color-light);
+      }
+
+      &:hover i::before {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}

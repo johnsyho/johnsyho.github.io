@@ -1,0 +1,183 @@
+# Press coverage, rendered by _pages/press.md (newest first).
+#
+#   image     path under assets/img/ (square-ish; cropped to a square)
+#   quote     the headline shown on the card; quote_by names the outlet it came from,
+#             and must match one of the outlets in `coverage` (the quote links there)
+#   paper     the publication the coverage is about (optional)
+#   coverage  one entry per article. `archived: true` means the original link died and
+#             `url` points to a Wayback Machine copy instead.
+#
+# Link check 2026-11-13: dropped Stanford Report 2012 ("tiny, wirelessly powered cardiac
+# device") and its EurekAlert release, which are dead with no archived copy.
+
+- title: Wireless wound infection sensor
+  year: 2021
+  image: publication_preview/window_square.jpg
+  quote: A new, gel-based wearable can catch infections before the naked eye can
+  quote_by: STAT
+  paper:
+    name: Science Advances
+    url: https://doi.org/10.1126/sciadv.abj1617
+  coverage:
+    - outlet: Scientific American
+      url: https://www.scientificamerican.com/article/gel-based-sensor-continuously-monitors-wounds-for-infection/
+    - outlet: STAT
+      url: https://www.statnews.com/2021/11/19/a-gel-wearable-can-catch-infections-before-the-naked-eye-can/
+    - outlet: AAAS
+      url: https://www.aaas.org/news/wearable-sensor-detects-wound-infections-they-are-visible
+    - outlet: BioSpectrum
+      url: https://www.biospectrumasia.com/news/98/19382/singapore-develops-wound-infection-sensor-based-on-dna-hydrogel.html
+
+- title: Remote health monitoring for COVID-19
+  year: 2020
+  image: press/pulse_square.jpg
+  quote: New weapon added to Singapore's arsenal against Covid-19
+  quote_by: The Straits Times
+  coverage:
+    - outlet: The Straits Times
+      url: https://www.straitstimes.com/singapore/covid-19-automated-wireless-system-that-monitors-blood-oxygen-successfully-piloted
+    - outlet: NUS News
+      url: https://news.nus.edu.sg/automated-blood-oxygen-monitoring-system-to-boost-covid-19-fight/
+
+- title: Near-field-enabled clothing
+  year: 2020
+  image: publication_preview/nfc_square.jpg
+  quote: Smartphone-powered suit to track vital signs
+  quote_by: The Straits Times
+  paper:
+    name: Nature Communications
+    url: https://doi.org/10.1038/s41467-020-14311-2
+  coverage:
+    - outlet: The Straits Times
+      url: https://www.straitstimes.com/singapore/researchers-develop-smartphone-powered-suit-to-track-vital-signs
+    - outlet: CNA
+      url: https://www.channelnewsasia.com/singapore/nus-research-smart-suit-athlete-performance-physiological-data-597976
+    - outlet: CGTN
+      url: https://news.cgtn.com/news/2020-11-30/This-smartphone-powered-suit-can-track-body-temperature-posture-VQBfxC1bdS/index.html
+    - outlet: NUS News
+      url: https://news.nus.edu.sg/nus-team-develops-smart-suit-wirelessly-powered-by-a-smartphone_20201026094345406/
+
+- title: Metamaterial textiles
+  year: 2019
+  image: publication_preview/metatextile_square.jpg
+  quote: "'Smart' clothing can boost wearable tech"
+  quote_by: Reuters
+  paper:
+    name: Nature Electronics
+    url: https://doi.org/10.1038/s41928-019-0257-7
+  coverage:
+    - outlet: Reuters
+      url: https://www.reuters.com/article/us-singapore-technology/smart-clothing-can-boost-wearable-tech-singapore-researchers-idUSKCN1V50VK
+    - outlet: The New York Times
+      url: http://web.archive.org/web/20190822002001/https://www.nytimes.com/reuters/2019/08/15/technology/15reuters-singapore-technology.html
+      archived: true
+    - outlet: The Telegraph
+      url: https://www.telegraph.co.uk/technology/2019/08/15/smart-clothing-could-help-stop-phone-battery-dying-thwart-hackers/
+    - outlet: South China Morning Post
+      url: https://www.scmp.com/tech/innovation/article/3023032/singapore-researchers-produce-new-form-smart-clothing-which-they
+    - outlet: The Hindu
+      url: https://www.thehindu.com/life-and-style/fashion/smart-clothing-gives-boost-to-wearable-tech/article29103602.ece
+    - outlet: CNA
+      url: http://web.archive.org/web/20210612133301/https://www.channelnewsasia.com/news/singapore/singapore-scientists-design-smart-textile-video-11744450
+      archived: true
+    - outlet: Business Insider
+      url: http://web.archive.org/web/20190715174359/https://www.businessinsider.sg/nus-researchers-invent-smart-clothing-that-boosts-wearable-tech-connectivity-and-battery-life-by-1000-times/
+      archived: true
+    - outlet: NUS News
+      url: http://news.nus.edu.sg/research/nus-innovation-boosts-wireless-connectivity-1000-times
+
+- title: Wearable diffractive patterns
+  year: 2019
+  image: publication_preview/diffractive_square.jpg
+  quote: The right T-shirt may increase medical implant's battery life
+  quote_by: Ars Technica
+  paper:
+    name: Physical Review Applied
+    url: https://doi.org/10.1103/PhysRevApplied.12.054020
+  coverage:
+    - outlet: Ars Technica
+      url: https://arstechnica.com/science/2019/11/sticking-bluetooth-in-a-dead-pig-wearing-a-t-shirt-to-improve-medical-implants/
+
+- title: Microsensor implants
+  year: 2019
+  image: publication_preview/microsensor_square.jpg
+  quote: Breakthrough could change use of microsensors medically
+  quote_by: The Straits Times
+  paper:
+    name: Nature Electronics
+    url: https://doi.org/10.1038/s41928-019-0284-4
+  coverage:
+    - outlet: The Straits Times
+      url: http://web.archive.org/web/20240325092838/https://www.straitstimes.com/tech/breakthrough-could-change-use-of-microsensors-medically
+      archived: true
+    - outlet: NUS News
+      url: https://news.nus.edu.sg/microsensor-implants-for-247-health-monitoring/
+
+- title: Wireless photodynamic therapy
+  year: 2018
+  image: publication_preview/pdt_square.jpg
+  quote: Lighting the way for cancer treatment
+  quote_by: NUS News
+  paper:
+    name: PNAS
+    url: https://doi.org/10.1073/pnas.1717552115
+  coverage:
+    - outlet: NUS News
+      url: https://news.nus.edu.sg/lighting-the-way-for-cancer-treatment/
+
+- title: Wireless optogenetics
+  year: 2015
+  image: cover_natmethods.gif
+  quote: With a better optogenetic light switch, scientists can flip neurons on and off
+  quote_by: IEEE Spectrum
+  paper:
+    name: Nature Methods
+    url: https://doi.org/10.1038/nmeth.3536
+  coverage:
+    - outlet: IEEE Spectrum
+      url: http://web.archive.org/web/20160305132413/http://spectrum.ieee.org/tech-talk/biomedical/devices/with-a-better-optogenetic-light-switch-scientists-can-flip-neurons-on-and-off
+      archived: true
+    - outlet: Fox News
+      url: http://web.archive.org/web/20151026080342/http://www.foxnews.com:80/health/2015/09/14/wirelessly-powered-brain-implant-could-treat-depression/
+      archived: true
+    - outlet: PhysicsCentral
+      url: https://physicscentral.com/explore/action/wirelessneuroimplant.cfm
+    - outlet: Stanford News
+      url: http://web.archive.org/web/20221205195602/https://news.stanford.edu/news/2015/august/wireless-optogenetic-mouse-081715.html
+      archived: true
+
+- title: Wireless power for tiny implants
+  year: 2014
+  image: cover_pnas.jpg
+  quote: Wireless medical implant is smaller than a grain of rice
+  quote_by: NBC News
+  paper:
+    name: PNAS
+    url: https://doi.org/10.1073/pnas.1403002111
+  coverage:
+    - outlet: BBC
+      url: http://www.bbc.com/news/science-environment-27488486
+    - outlet: NBC News
+      url: http://www.nbcnews.com/tech/innovation/wireless-medical-implant-smaller-grain-rice-n109431
+    - outlet: Wired
+      url: http://web.archive.org/web/20150920215700/http://www.wired.co.uk/news/archive/2014-05/20/wireless-power-microdevices
+      archived: true
+    - outlet: Forbes
+      url: http://www.forbes.com/sites/jenniferhicks/2014/05/26/wirelessly-powering-medical-chips-inside-your-body/
+    - outlet: Smithsonian
+      url: http://www.smithsonianmag.com/innovation/no-batteries-here-these-wireless-medical-implants-use-bodys-own-tissue-charge-180951612/
+    - outlet: Physics Today
+      url: https://pubs.aip.org/physicstoday/online/10858/Wireless-power-for-medical-implants
+    - outlet: SF Chronicle
+      url: http://www.sfgate.com/technology/article/Stanford-researchers-develop-tiny-wireless-implant-5504171.php
+    - outlet: ABC7
+      url: https://abc7news.com/post/stanford-engineers-electrifying-breakthrough/145858/
+    - outlet: NY Daily News
+      url: https://www.nydailynews.com/2014/05/21/new-wireless-technology-could-help-patients-with-medical-implants/
+    - outlet: Physics (APS)
+      url: http://physics.aps.org/articles/v6/57
+    - outlet: Medgadget
+      url: http://www.medgadget.com/2013/05/wireless-power-transfer-using-small-coils-shown-theoretically-possible.html
+    - outlet: Stanford News
+      url: http://web.archive.org/web/20220901043507/https://news.stanford.edu/news/2014/may/electronic-wireless-transfer-051914.html
+      archived: true

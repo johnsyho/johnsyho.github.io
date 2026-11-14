@@ -1,0 +1,40 @@
+{% comment %}
+  Visual summary strip for the homepage, driven by `page.showcase` front matter
+  (see _pages/about.md). One row of labelled groups divided by a separator.
+
+  Equal heights: each group's flex-grow is the sum of its items' aspect ratios and its
+  flex-basis is its own gap total, so leftover width is shared in proportion to aspect —
+  every image ends up the same height, and the row exactly fills the content width.
+{% endcomment %}
+<section class="showcase">
+  {% for group in page.showcase %}
+    {% if forloop.index > 1 %}<div class="showcase-sep" aria-hidden="true"></div>{% endif %}
+    {% assign total_aspect = 0.0 %}
+    {% for item in group.items %}
+      {% assign aspect = item.aspect | default: 0.75 %}
+      {% assign total_aspect = total_aspect | plus: aspect %}
+    {% endfor %}
+    {% assign gaps = group.items.size | minus: 1 %}
+    <div
+      class="showcase-group{% if group.framed %} showcase-framed{% endif %}"
+      style="flex: {{ total_aspect }} 0 calc({{ gaps }} * var(--showcase-gap))"
+    >
+      {% if group.label %}<p class="showcase-label">{{ group.label }}</p>{% endif %}
+      <div class="showcase-row">
+        {% for item in group.items %}
+          {% assign aspect = item.aspect | default: 0.75 %}
+          <figure class="showcase-cell" style="flex: {{ aspect }} 0 0">
+            {% if item.url %}
+              <a class="showcase-item" style="aspect-ratio: {{ aspect }}" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+            {% else %}
+              <div class="showcase-item" style="aspect-ratio: {{ aspect }}">
+            {% endif %}
+            <img src="{{ item.image | prepend: 'assets/img/' | relative_url }}" alt="{{ item.alt | escape }}" title="{{ item.alt | escape }}" loading="lazy">
+            {% if item.url %}</a>{% else %}</div>{% endif %}
+            {% if item.caption %}<figcaption class="showcase-caption">{{ item.caption }}</figcaption>{% endif %}
+          </figure>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</section>
